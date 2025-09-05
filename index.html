@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/img/Biccas.png"
+      type="image/x-icon"
+    />
+    <title>Biccas</title>
+  </head>
+  <body>
+    <nav
+      id="navbar-example1"
+      class="navbar navbar-expand-lg bg-body-tertiary sticky-top"
+    >
+      <div class="container">
+        <a class="navbar-brand text-success fs-1 fw-bold" href="#">Biccas</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div
+            class="d-lg-flex justify-content-between align-items-center w-100 text-center"
+          >
+            <div class="navbar-nav mx-auto nav-pills">
+              <a class="nav-link text-dark" href="#hero">Home</a>
+              <a class="nav-link text-dark" href="#services">Services</a>
+              <a class="nav-link text-dark" href="#features">Features</a>
+              <a class="nav-link text-dark" href="#pricing">Pricing</a>
+              <a class="nav-link text-dark" href="#contact-us">Contact Us</a>
+            </div>
+
+            <form
+              class="d-flex justify-content-center justify-content-lg-end mt-3 mt-lg-0"
+            >
+              <button class="btn btn-sm me-2 text-secondary" type="button">
+                Login
+              </button>
+              <button class="btn btn-success" type="button">Sign Up</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div
+      data-bs-spy="scroll"
+      data-bs-target="#navbar-example1"
+      data-bs-root-margin="0px 0px -40%"
+      data-bs-smooth-scroll="true"
+      class="scrollspy-example bg-body-tertiary p-3 rounded-2"
+      tabindex="0"
+    >
+      <!-- hero started -->
+      <section id="hero" class="container py-5 mb-5">
+        <div
+          class="row row-cols-md-2 row-cols-sm-1 d-flex align-items-center justify-content-center flex-column-reverse flex-md-row"
+        >
+          <div
+            class="hero-text col-md-6 col-sm-12 d-flex flex-column align-items-sm-center gap-5 justify-content-center"
+          >
+            <h1 class="fs-1 fw-bold">
+              We’re here to Increase your Productivity
+            </h1>
+            <img src="./assets/img/hero-text.png" alt="" />
+            <p>
+              Let's make your work more organize and easily using the Taskio
+              Dashboard with many of the latest featuresin managing work every
+              day.
+            </p>
+            <form
+              class="d-flex justify-content-center justify-content-lg-center gap-5 my-3 mt-lg-0"
+            >
+              <button class="btn btn-success rounded-5" type="button">
+                Try free trial
+              </button>
+              <button class="btn btn-sm me-2 text-dark rounded-5" type="button">
+                <img src="./assets/img/Play.png" alt="" /> View Demo
+              </button>
+            </form>
+          </div>
+          <div class="hero-img col-md-6 col-sm-12">
+            <img class="w-100" src="./assets/img/hero-img.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <!-- hero end -->
+      <!-- Services start -->
+      <section id="services" class="container py-5 my-5">
+        <div class="row gap-5">
+          <div class="services-left d-flex flex-column gap-3 col">
+            <h1 class="fs-1 fw-bold">
+              How we support our pratner all over the world
+            </h1>
+            <p class="text-secondary">
+              SaaS become a common delivery model for many business application,
+              including office software, messaging software, payroll processing
+              software, DBMS software, management software
+            </p>
+            <div class="d-flex justify-content-center gap-5">
+              <div>
+                <img src="./assets/img/stars.png" alt="" />
+                <h5 class="pt-2">4.9 / 5 rating</h5>
+                <p class="text-secondary">databricks</p>
+              </div>
+              <div>
+                <img src="./assets/img/stars.png" alt="" />
+                <h5 class="pt-2">4.8 / 5 rating</h5>
+                <p class="text-secondary">Chainalysis</p>
+              </div>
+            </div>
+          </div>
+          <div class="services-right col d-flex flex-column gap-5">
+            <div class="service d-flex gap-2">
+              <div><img src="./assets/img/publishing.png" alt="" /></div>
+              <div>
+                <h2>Publishing</h2>
+                <p class="text-secondary">
+                  Plan, collaborate, and publishing your contetn that drivees
+                  meaningful engagement and growth for your barnd
+                </p>
+              </div>
+            </div>
+            <div class="service d-flex gap-2">
+              <div>
+                <img src="./assets/img/analytics.png" alt="" />
+              </div>
+              <div>
+                <h2>Analytics</h2>
+                <p class="text-secondary">
+                  Analyze your performance and create goegeous report
+                </p>
+              </div>
+            </div>
+            <div class="service d-flex gap-2">
+              <div><img src="./assets/img/engagement.png" alt="" /></div>
+              <div>
+                <h2>Engagement</h2>
+                <p class="text-secondary">
+                  Quiuckly navigate you anda engage with your adience
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- services end -->
+      <!-- features start -->
+      <section id="features" class="container py-5 my-5">
+        <div class="row align-items-center text-center text-md-start gy-3">
+          <div class="col-md-5">
+            <h1 class="fs-1 fw-bold">Our Features you can get</h1>
+          </div>
+
+          <div class="col-md-5">
+            <p class="px-md-3 text-secondary">
+              We offer a variety of interesting features that can help increase
+              your productivity at work and manage your project easily.
+            </p>
+          </div>
+
+          <div class="col-md-2">
+            <button class="btn btn-success rounded-5" type="button">
+              Get Started
+            </button>
+          </div>
+        </div>
+        <div class="card-group py-5 gap-5">
+          <div class="card border-0 shadow-lg">
+            <img
+              src="./assets/img/collaboration.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title fw-bold fs-2">Collboration Teams</h5>
+              <p class="card-text text-secondary">
+                Here you can handle projects together with team virtually
+              </p>
+            </div>
+          </div>
+          <div class="card border-0 shadow-lg">
+            <img src="./assets/img/cloude.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title fw-bold fs-2">Cloud Storage</h5>
+              <p class="card-text text-secondary">
+                No nedd to worry about storage because we provide storage up to
+                2 TB
+              </p>
+            </div>
+          </div>
+          <div class="card border-0 shadow-lg">
+            <img src="./assets/img/daily.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title fw-bold fs-2">Daily Analytics</h5>
+              <p class="card-text text-secondary">
+                We always provide useful informatin to make it easier for you
+                every day
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- features end -->
+      <!-- pricing start -->
+      <section id="pricing" class="container my-5 py-5">
+        <h1 class="text-center fw-bold fs-1 py-5">
+          Choose Plan That’s Right For You
+        </h1>
+        <div class="card-group">
+          <div
+            class="card text-center mb-3 shadow-lg card-hover mx-auto mx-md-2"
+            style="width: 18rem"
+          >
+            <div class="card-body">
+              <h5 class="card-title fw-bold fs-3">Free</h5>
+              <p class="card-text text-secondary text-center">
+                Have a go and test your superpowers, & check other plans
+                <br />
+              </p>
+              <h6 class="fw-bold fs-1">$0</h6>
+              <div class="text-start d-flex flex-column gap-3 py-4">
+                <div>
+                  <img src="./assets/img/checkmark.png" alt="" /> 2 Users
+                </div>
+                <div>
+                  <img src="./assets/img/checkmark.png" alt="" /> 2 Files
+                </div>
+                <div>
+                  <img src="./assets/img/checkmark.png" alt="" /> Public Share &
+                  Comments
+                </div>
+
+                <div>
+                  <img src="./assets/img/checkmark.png" alt="" /> Chat Support
+                </div>
+                <div>
+                  <img src="./assets/img/checkmark.png" alt="" /> New income
+                  apps
+                </div>
+              </div>
+              <a href="#" class="btn btn-success">Signup for free</a>
+            </div>
+          </div>
+          <div
+            class="card text-center mb-3 shadow-lg card-hover mx-auto mx-md-2"
+            style="width: 18rem"
+          >
+            <div class="card-body">
+              <h5 class="card-title fw-bold fs-3">Pro</h5>
+              <p class="card-text text-secondary">
+                Experiment the power of infinite possibilities and Adventures
+              </p>
+              <h6 class="fw-bold fs-1">
+                $8<span class="fs-6 fw-normal">/month</span>
+              </h6>
+
+              <div class="text-start d-flex flex-column gap-3 py-4">
+                <div>
+                  <img src="./assets/img/checkmark.png" alt="" /> 4 Users
+                </div>
+                <div>
+                  <img src="./assets/img/checkmark.png" alt="" /> All apps
+                </div>
+                <div>
+                  <img src="./assets/img/checkmark.png" alt="" /> Unlimited
+                  editable exports
+                </div>
+
+                <div>
+                  <img src="./assets/img/checkmark.png" alt="" /> Folders and
+                  collaboration
+                </div>
+                <div>
+                  <img src="./assets/img/checkmark.png" alt="" /> All incoming
+                  apps
+                </div>
+              </div>
+              <a href="#" class="btn btn-success">Go to pro</a>
+            </div>
+          </div>
+          <div
+            class="card text-center mb-3 shadow-lg card-hover mx-auto mx-md-2"
+            style="width: 18rem"
+          >
+            <div class="card-body">
+              <h5 class="card-title fw-bold fs-3">Business</h5>
+              <p class="card-text text-secondary">
+                Unveil new superpowers and join the Design Leaque
+              </p>
+              <h6 class="fw-bold fs-1">
+                $16<span class="fs-6 fw-normal">/month</span>
+              </h6>
+
+              <div class="text-start d-flex flex-column gap-3 py-4">
+                <div>
+                  <img src="./assets/img/checkmark.png" alt="" /> All the
+                  features of pro plan
+                </div>
+                <div>
+                  <img src="./assets/img/checkmark.png" alt="" /> Account
+                  success Manager
+                </div>
+                <div>
+                  <img src="./assets/img/checkmark.png" alt="" /> Single Sign-On
+                  (SSO)
+                </div>
+
+                <div>
+                  <img src="./assets/img/checkmark.png" alt="" /> Co-conception
+                  pogram
+                </div>
+                <div>
+                  <img src="./assets/img/checkmark.png" alt="" />
+                  Collaboration-Soon
+                </div>
+              </div>
+              <a href="#" class="btn btn-success">Goto Business</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- pricing end -->
+      <!-- contact us started -->
+      <div
+        id="contact-us"
+        class="container col col-md-6 my-5 mx-auto py-5 bg-success bg-gradient rounded-2"
+      >
+        <form
+          class="d-flex flex-column justify-content-center align-items-center mx-auto gap-3"
+        >
+          <h1 class="text-center fs-1 fw-bold pt-3">Contact Us</h1>
+          <div class="mb-3 col-8">
+            <label for="exampleFormControlInput1" class="form-label"
+              >Email</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="Enter your email"
+            />
+          </div>
+          <div class="mb-3 col-8">
+            <label for="exampleFormControlTextarea1" class="form-label"
+              >Message</label
+            >
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              placeholder="What's in your mind ?"
+              rows="3"
+            ></textarea>
+          </div>
+          <button class="btn btn-light w-25 mx-auto mb-3" type="submit ">
+            Send
+          </button>
+        </form>
+      </div>
+      <!-- contact us end -->
+    </div>
+    <footer class="mt-5 pt-5 bg-success-subtle">
+      <div class="container">
+        <div
+          class="footer-top row d-flex justify-content-center align-items-center gap-3"
+        >
+          <div class="footer-logo col-md-5 row">
+            <a class="navbar-brand text-success fs-1 fw-bold" href="#"
+              >Biccas</a
+            >
+            <p class="text-secondary">Get started now & try our product</p>
+            <form
+              class="text-secondary rounded-5 d-flex justify-content-center align-items-center border border-3 border-secondary col-6 bg-white"
+            >
+              <input
+                type="email"
+                class="form-control border-radius"
+                id="exampleFormControlInput1"
+                placeholder="Enter your email"
+              />
+              <button
+                class="bg-success rounded-5 border-0 w-25 h-75"
+                type="submit"
+              >
+                <img src="./assets/img/arrow-right.png" alt="" />
+              </button>
+            </form>
+          </div>
+          <div class="footerlist1 col-md-2">
+            <h6>Support</h6>
+            <ul class="list-unstyled d-flex flex-column gap-2">
+              <li>
+                <a
+                  class="text-decoration-none text-secondary link-dark"
+                  href="#"
+                  >Help center</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-decoration-none text-secondary link-dark"
+                  href="#"
+                  >Account information</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-decoration-none text-secondary link-dark"
+                  href="#"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-decoration-none text-secondary link-dark"
+                  href="#"
+                  >Contact us</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footerlist2 col-md-2">
+            <h6>Help and Solution</h6>
+            <ul class="list-unstyled d-flex flex-column gap-2">
+              <li>
+                <a
+                  class="text-decoration-none text-secondary link-dark"
+                  href="#"
+                  >Talk to support</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-decoration-none text-secondary link-dark"
+                  href="#"
+                  >Support docs</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-decoration-none text-secondary link-dark"
+                  href="#"
+                  >System status</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-decoration-none text-secondary link-dark"
+                  href="#"
+                  >Covid responde</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footerlist3 col-md-2">
+            <h6>Product</h6>
+            <ul class="list-unstyled d-flex flex-column gap-2">
+              <li>
+                <a
+                  class="text-decoration-none text-secondary link-dark"
+                  href="#"
+                  >Update</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-decoration-none text-secondary link-dark"
+                  href="#"
+                  >Security</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-decoration-none text-secondary link-dark"
+                  href="#"
+                  >Beta test</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-decoration-none text-secondary link-dark"
+                  href="#"
+                  >Pricing product</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="footer-btm d-md-flex justify-content-between align-items-center pt-4 text-secondary"
+        >
+          <h6>© 2022 Biccas Inc. Copyright and rights reserved</h6>
+          <h6>
+            <a class="text-decoration-none text-secondary link-dark" href="#"
+              >Terms and Condtions</a
+            >
+            |
+            <a class="text-decoration-none text-secondary link-dark" href="#"
+              >Privacy Policy</a
+            >
+          </h6>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
